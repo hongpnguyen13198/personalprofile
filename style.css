@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    background-color: rgba(54, 138, 131, 0.11);
+    color: #b84444;
+    padding: 20px;
+    justify-content: center;
+   
+  }
+#navigation ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .memes img {
+    
+    width: 450px; /* Set the same width for all images */
+  height: 250px; /* Set the same height for all images */
+  }
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: lightgray;
+}
+  
