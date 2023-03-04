@@ -3,29 +3,48 @@
     background-color: rgba(54, 138, 131, 0.11);
     color: #b84444;
     padding: 20px;
-    justify-content: center;
+    justify-content: space-between
    
   }
-#navigation ul {
+#navigation {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     list-style-type: none;
   }
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+    background-size: 100px 200px;
+    background-repeat: repeat-x;
   }
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  color: azure;
+}
   .memes img {
-    
-    width: 450px; /* Set the same width for all images */
+  width: 450px; /* Set the same width for all images */
   height: 250px; /* Set the same height for all images */
   }
+h2 {
+font-size: large;
+color: aliceblue;
+}
+
 footer{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     background-color: lightgray;
+    margin: 0;
+  padding: 0;
+  position: relative;
 }
   
