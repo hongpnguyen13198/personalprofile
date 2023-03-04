@@ -3,9 +3,13 @@
     background-color: rgba(54, 138, 131, 0.11);
     color: #b84444;
     padding: 20px;
-    justify-content: space-between
+    font-size: large;
+    justify-content: space-between;
    
   }
+p .header{
+  font-style: italic;
+}
 #navigation {
     display: flex;
     justify-content: space-around;

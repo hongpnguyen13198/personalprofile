@@ -5,9 +5,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <div class="header">
-        <h2>My personal project</h2>
+        <p>My personal project</p>
+        <p id="datetime"></p>
+
+        <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleString();
+        </script>
+
         <section id="navigation">
-                <div class ="Recommended">Recommended coding practice sites</div>
+                <div class ="Recommended"><a href="#Recommended">Recommended coding practice sites</a></div>
                 <div class ="about"><a href="#about_me">About me</a></div>
                 <div class ="Write"><a href="mailto:hongpnguyen13198@gmail.com">Write an email to me</a></div>
 
@@ -16,8 +23,8 @@
       <br>
  
 <body>
-
-<h3>My Skills</h3>
+    <details>
+        <summary> <h3>The coding knowledge that I studied so far </h3> </summary>
 <ul>
     <li>HTML</li>
     <li>CSS</li>
@@ -26,15 +33,18 @@
     <li>Bootstrap</li>
     <li>React</li>
 </ul>
+</details>
 <h3>A day of the Front-End Developer be like</h3>
 <iframe width="950" height="600" src="https://www.youtube.com/embed/r7dZKOL5rcg" title="Programming Expectations vs Reality" frameborder="0" allow="accelerometer; 
 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div id = "Recommended">
 <h3>Recommended coding practice sites</h3>
 <ol>
     <li><a href="https://www.hackerrank.com/">Hackerrank</a></li>
     <li><a href="https://www.codechef.com/">CodeChef</a></li>
     <li><a href="https://www.codewars.com/">Codewars</a></li>
 </ol>
+</div>
 <h3> Web Development Quotes </h3>
             <blockquote>
             <p> "If you're already a front-end developer, well, pretend you're also wearing a pirate hat." </p>
@@ -52,10 +62,13 @@ autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-s
     <img src="https://img-9gag-fun.9cache.com/photo/ao51bZ0_700bwp.webp"alt="Meme_3"> </img>
 </div>
 <section>
+    <div id="about_me">
 <h2>About Me</h2>
 <p>Hi, my name is Nguyen Hong Phuc, a front-end developer based in Vietnam. I'm currently taking developer bootcamp in Coderschool.
 I love creating beautiful, responsive websites and web applications that are not only functional but also visually appealing.</p>
+</div>
   </body>
+  </div>
 </section>
   <footer>
     <p>Author: Nguyen Hong Phuc<br>
