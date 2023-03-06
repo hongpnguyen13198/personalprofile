@@ -2,10 +2,9 @@
     display: flex;
     background-color: rgba(54, 138, 131, 0.11);
     color: #b84444;
-    padding: 20px;
     font-size: large;
     justify-content: space-between;
-   
+    margin-bottom: 25px;
   }
 p .header{
   font-style: italic;
@@ -18,7 +17,7 @@ p .header{
   }
 body {
     margin: 0;
-    padding: 0;
+    padding: 25px;
     font-family: 'Times New Roman', Times, serif;
     position:absolute;
     background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
